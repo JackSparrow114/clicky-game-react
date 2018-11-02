@@ -1,0 +1,31 @@
+{
+  "name": "clicky_game",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sadecki558.github.io/Clicky_Game",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "description": "a react app for clicky game",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackSparrow114/clicky-game-react.git"
+  },
+  "author": "Arpit Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackSparrow114/clicky-game-react/issues"
+  }
+}
